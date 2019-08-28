@@ -1,0 +1,146 @@
+; Packaging information for impact_tracker
+name = "Impact Tracker"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Access control
+dependencies[] = node_view_permissions
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = ctools
+; Context
+dependencies[] = context
+dependencies[] = context_ui
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = php
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = translation
+dependencies[] = update
+dependencies[] = user
+; Custom
+dependencies[] = disable_author_field
+dependencies[] = disable_grant_field
+dependencies[] = disable_platform_field
+dependencies[] = disable_story_field
+dependencies[] = disable_story_link_field
+dependencies[] = disable_story_partner_field
+dependencies[] = disable_submitter_field
+dependencies[] = impact_tracker_ga
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Development
+dependencies[] = profiler_builder
+; Features extra
+dependencies[] = fe_block
+; Feeds
+dependencies[] = feeds
+dependencies[] = feeds_ex
+dependencies[] = feeds_tamper
+dependencies[] = feeds_tamper_php
+dependencies[] = feeds_tamper_ui
+dependencies[] = feeds_ui
+dependencies[] = feeds_xls
+; Fields
+dependencies[] = entityreference
+dependencies[] = field_collection
+dependencies[] = field_permissions
+dependencies[] = filefield_sources
+dependencies[] = link
+; Link Badges
+dependencies[] = link_badges
+; Mail
+dependencies[] = notify
+; Multilingual
+dependencies[] = l10n_update
+; Multilingual - Internationalization
+dependencies[] = i18n
+dependencies[] = i18n_block
+dependencies[] = i18n_field
+dependencies[] = i18n_menu
+dependencies[] = i18n_node
+dependencies[] = i18n_path
+dependencies[] = i18n_select
+dependencies[] = i18n_string
+dependencies[] = i18n_taxonomy
+dependencies[] = i18n_translation
+dependencies[] = i18n_variable
+dependencies[] = i18nviews
+; Other
+dependencies[] = disable_term_node_listings
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = job_scheduler
+dependencies[] = menu_attributes
+dependencies[] = menu_badges
+dependencies[] = menu_item_visibility
+dependencies[] = menu_token
+dependencies[] = node_page_disable
+dependencies[] = pathauto
+dependencies[] = publishcontent
+dependencies[] = strongarm
+dependencies[] = title_length
+dependencies[] = token
+dependencies[] = views_term_path
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+; Statistics
+dependencies[] = googleanalytics
+; Taxonomy
+dependencies[] = taxonomy_access_fix
+dependencies[] = term_merge
+; UUID
+dependencies[] = uuid
+; User interface
+dependencies[] = autocomplete_deluxe
+; Variable
+dependencies[] = variable
+dependencies[] = variable_admin
+dependencies[] = variable_realm
+dependencies[] = variable_store
+; Views
+dependencies[] = better_exposed_filters
+dependencies[] = editableviews
+dependencies[] = exposed_filter_data
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_data_export
+dependencies[] = views_field_view
+dependencies[] = views_json
+dependencies[] = views_ui
+; Features
+dependencies[] = features
+dependencies[] = base_configuration
+dependencies[] = content_management
+dependencies[] = features_translations
+dependencies[] = outcomes
+dependencies[] = uuid_features
+dependencies[] = translations
+
